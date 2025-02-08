@@ -14,9 +14,9 @@ formularioDeCadastro.addEventListener('submit' , function(event){
         dataDeNascimento: dataDeNascimento.value,
         
     };
-    // Armazenamento dos dados na base de Dados.
+    // Armazenando os dados na base de Dados.
         console.log('Dados do Cadastro:' , DadosDaBaseDeDados);
     
-    // Confirmação do cadastro
+    // Confirmando o cadastro
         alert('Seu cadastro foi concluído!');
    });
